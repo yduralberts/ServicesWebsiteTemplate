@@ -1,62 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Home Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">Dasem Services</h2>
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="service.html">SERVICE</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="Type To text">
-                <a href="#"> <button class="btn">Search</button></a>
-            </div>
-
-        </div> 
-        <div class="content">
-            <h1>Web Design & <br><span>Development</span> <br>Course</h1>
-            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque 
-                 expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus 
-                <br> a quae totam ipsa illum minus laudantium?</p>
-
-                <button class="cn"><a href="contact.html">JOIN US</a></button>
-
-                <div class="form">
-                    <h2>SignUp</h2>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <input type="password" name="" placeholder="Enter Password Here">
-                    <button class="btnn"><a href="#">SignUp</a></button>
-
-                    <p class="link">SignUp for weekly deals <br>
-                    <p class="liw">Log in with</p>
-
-                    <div class="icons">
-                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
-                    </div>
-
-                </div>
-                    </div>
-                </div>
+      <navbar>
+        <div class="icon">
+          <h2 class="logo">Dasem Services</h2>
         </div>
+
+        <ul class="menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="service.html">SERVICE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+        <div class="search">
+          <input
+            class="srch"
+            type="search"
+            name=""
+            placeholder="Type To text"
+          />
+          <button class="btn">Search</button>
+        </div>
+      </navbar>
+
+      <section>
+        <div class="contentLeft">
+          <h1>Web Design & <br /><span>Development</span> <br />Course</h1>
+          <p class="par">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque
+            expedita atque eveniet <br />
+            quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus
+            <br />
+            a quae totam ipsa illum minus laudantium?
+          </p>
+
+          <button class="cn"><a href="contact.html">JOIN US</a></button>
+        </div>
+
+        <div class="form">
+          <h2>Daily Mail</h2>
+          <label>
+            Email:
+            <input type="email" name="email" placeholder="Enter Email Here" />
+          </label>
+
+          <label>
+            Password:
+            <input type="password" name="" placeholder="Enter Password Here" />
+          </label>
+
+          <button class="btnn">SignUp</button>
+
+          <p class="link">Get your daily and weekly updates!</p>
+          <!-- <br /> -->
+          <div class="liw">
+            <p>Log in with:</p>
+            <span class="icons">
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+            </span>
+          </div>
+        </div>
+      </section>
+      <!-- 
+      <footer>
+        <p>@copyright</p>
+      </footer> -->
     </div>
+
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-</body>
+  </body>
 </html>
