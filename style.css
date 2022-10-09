@@ -6,7 +6,7 @@
 body {
   display: flex;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .main{
@@ -17,8 +17,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100vh;
+    min-width: 100%;
+    /* height: 100%; */
 }
 
 navbar {
@@ -127,24 +127,27 @@ ul li a:hover{
 
 
 section{
-    /* width: 100%; */
+    width: 90%;
     /* height: auto; */
     display: flex;
     justify-content: space-evenly;
     /* align-items: flex-end; */
     align-items: center;
-    margin: auto 0;
+    margin: auto;
     padding:  25px;
     color: #fff;
     /* position: relative; */
 }
 
 .contentLeft {
-    background-color: rgb(0,0,0,0.7);
+    background-color: rgb(0,0,0,0.8);
     border-radius: 5px;
+    /* padding: 25px 25px 25px 100px; */
     padding: 25px;
-    margin: 0 25px 50px 0;
+    /* margin: 0 25px 50px 0; */
+    margin: 0 25px 50px 25px;
     height: 80%;
+    width: 60%;
 }
 
 section h1{
@@ -292,10 +295,12 @@ label {
     padding: 10px 0;
     text-align: center;
 }
+
 .form .link a{
     text-decoration: none;
     color: #1171ba;
 }
+
 .liw{
 font-size: 1.5rem;
   display: flex;
@@ -303,6 +308,7 @@ font-size: 1.5rem;
   margin: auto;
   padding: 0 15px;
 }
+
 .icons a{
     text-decoration: none;
     color: #fff;
@@ -328,6 +334,14 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer div {
+    margin: auto;
+    width: 100%;
 }
 
 footer p {
@@ -348,11 +362,13 @@ footer p {
 
     section {
         flex-direction: column;
-        width: 80%;
+        width: 95%;
         margin: auto;
     }
 
     .contentLeft {
         margin: 50px auto;
+        width: 90%;
+        padding: 25px;
     }
 }
